@@ -1,0 +1,26 @@
+{
+  "name": "ncli",
+  "version": "1.0.0",
+  "description": "node cli tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hello": "bin/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengjx/ncli.git"
+  },
+  "author": "fengjianxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengjx/ncli/issues"
+  },
+  "homepage": "https://github.com/fengjx/ncli#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  }
+}
